@@ -1,0 +1,130 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/service/assignment-writing-services-in-singapore",
+        "destination": "/#work",
+        "type": 301
+      },
+      {
+        "source": "/132ikvdclbyi2301",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/32452dronjb-zyad8_fehr",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/sample/samples",
+        "destination": "/#contact",
+        "type": 301
+      },
+      {
+        "source": "/service/assignment-writing-services-in-usa",
+        "destination": "/#work",
+        "type": 301
+      },
+      {
+        "source": "/assignment-writing-services-in-usa",
+        "destination": "/#work",
+        "type": 301
+      },
+      {
+        "source": "/index.php/service/11",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/welcome/save_subscribe",
+        "destination": "/#contact",
+        "type": 301
+      },
+      {
+        "source": "/welcome/save_enq",
+        "destination": "/#contact",
+        "type": 301
+      },
+      {
+        "source": "/index.php/service/7",
+        "destination": "/#contact",
+        "type": 301
+      },
+      {
+        "source": "/services/8",
+        "destination": "/#work",
+        "type": 301
+      },
+      {
+        "source": "/joinus",
+        "destination": "/career",
+        "type": 301
+      },
+      {
+        "source": "/faq",
+        "destination": "/#contact",
+        "type": 301
+      },
+      {
+        "source": "/services",
+        "destination": "/#work",
+        "type": 301
+      },
+      {
+        "source": "/services/**",
+        "destination": "/#work",
+        "type": 301
+      },
+      {
+        "source": "/contact",
+        "destination": "/#contact",
+        "type": 301
+      },
+      {
+        "source": "/about",
+        "destination": "/#about",
+        "type": 301
+      }
+    ],
+    "headers": [{
+      "source": "**",
+      "headers" : [
+        { "key" : "Access-Control-Allow-Origin", "value" : "*" },
+        { "key" : "X-Frame-Options", "value" : "deny" },
+        { "key" : "X-Content-Type-Options", "value" : "nosniff" },
+        { "key" : "X-XSS-Protection", "value" : "1; mode=block" },
+        { "key": "Referrer-Policy", "value": "no-referrer" }
+      ]
+    },{
+      "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+      "headers": [{
+        "key": "Access-Control-Allow-Origin",
+        "value": "*"
+      },{
+        "key": "Cache-Control",
+        "value": "max-age=7200"
+      }]
+    },{
+      "source": "**/*.@(jpg|jpeg|gif|png|mp4)",
+      "headers": [{
+        "key": "Cache-Control",
+        "value": "max-age=7200"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  style="overflow: visible; height: initial"
+  class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths fp-enabled"
+>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>The Assignment Hub</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="description" content="The Assignment Hub" />
+    <meta name="keywords" content="academic disciplines, educational careers, legal process, career goals" />
+    <meta name="author" content="The Assignment Hub" />
+    <link rel="icon" href="img/favicon.ico" />
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <![endif]-->
+    <link href="style.css" rel="stylesheet" />
+    <script src="main.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "The Assignment Hub",
+        "image": "https://theassignmenthub.com/img/assignmenthub-logo-icon.png",
+        "@id": "",
+        "url": "https://theassignmenthub.com/",
+        "telephone": "+91-9352555548",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "70/38 Patel Marg, Mansarovar",
+          "addressLocality": "Jaipur",
+          "postalCode": "302020",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 26.853632,
+          "longitude": 75.770146
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      }
+    </script>
+  </head>
+
+  <body
+    onload="myLoader()"
+    class="backgrond-police fp- responsive fp-viewing-price"
+    style="overflow: visible; height: initial"
+  >
+    <div id="loader-div">
+      <div class="loader"></div>
+    </div>
+
+    <!-- =======================
+     =====     Header  ======
+     =========================-->
+    <header class="fixed-top">
+      <!-- =======================
+            =====     Navbar   ======
+            =========================-->
+      <nav
+        id="navbar-onepage"
+        class="navbar onclick-hide navbar-expand-lg navbar-dark"
+      >
+        <a class="navbar-brand pr-0 pl-0 mr-0" href="/"
+          ><img
+            loading="lazy"
+            src="img/assignmenthub-logo-icon.png"
+            class="logo-img"
+        /></a>
+        <button class="navbar-toggler" type="button">
+          <span class="icon-bar-line x1"></span>
+          <span class="icon-bar-line x2"></span>
+          <span class="icon-bar-line x3"></span>
+        </button>
+        <div class="navbar-img">
+          <div class="menu-img"></div>
+          <div class="menu-title"></div>
+        </div>
+        <div class="collapse navbar-collapse">
+          <div class="block-menu">
+            <div class="block-menu-inner">
+              <ul id="menu" class="navbar-nav">
+                <li
+                  data-menuanchor="home"
+                  class="nav-item animated fadeInRightBig"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#home"
+                    data-bg="img/home.jpg"
+                    >Home</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="about"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#about"
+                    data-bg="img/about.jpg"
+                    >About</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="feature"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#feature"
+                    data-bg="img/our_features.jpg"
+                    >OUR FEATURES</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="work"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#work"
+                    data-bg="img/services.jpg"
+                    >SERVICES</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="price"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#price"
+                    data-bg="img/our_plan.jpg"
+                    >PLANS</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="blog"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#blog"
+                    data-bg="img/our_blog.jpg"
+                    >Blog</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="testimonial"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#testimonial"
+                    data-bg="img/reviews.jpg"
+                    >Review</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="contact"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a class="nav-link" href="#contact" data-bg="img/contact.jpg"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="/policy.html"
+                    data-bg="img/privacy.jpg"
+                    >Privacy Policies</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="/refund-policy.html"
+                    data-bg="img/refund-policy-01.jpg"
+                    >Refund Policies</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link current"
+                    href="/paynow.html"
+                    data-bg="img/paynow.jpg"
+                    >Book Now</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated active">
+                  <a
+                    class="nav-link current"
+                    href="career.html"
+                    data-bg="img/career.jpg"
+                    >Career</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="/terms-and-conditions.html"
+                    data-bg="img/terms-and-conditions-01.jpg"
+                    >Terms and Conditions</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar-bottom text-right fadeInUpBig animated">
+            <p class="light">The Assignment Hub</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="row-policy p-0">
+      <div class="col-xl-6 col-lg-12 col-md-12 p-0 w-100">
+        <img
+          loading="lazy"
+          src="img/001.jpg"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+      <div
+        class="col-xl-6 col-lg-12 col-md-12 p-0 align-items-stretch over-h polices-bg page-none"
+      >
+        <div class="h100 relative">
+          <div class="bg-img mask-dark" id="policies"></div>
+          <div class="block-content">
+            <div class="block-content-inner">
+              <div class="d-flex">
+                <div class="align-self-center w_100 relative">
+                  <div class="section-header-title text-center">
+                    <h3 class="section-title light">GROW With US</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row-policy p-0">
+      <div
+        class="col-xl-6 col-lg-12 col-md-12 p-0 align-items-stretch over-h polices-bg"
+      >
+        <div class="h100 relative">
+          <div id="form-wrapper">
+            <div id="form-inner">
+              <div id="MainContent">
+                <form class="p-5 mt-2" id="careerform" name="google-sheet">
+                  <div class="text-center mb-4">
+                    <h2 class="light form-h">JOIN US</h2>
+                  </div>
+                  <div id="ErrResults">
+                    <!-- Error Here -->
+                  </div>
+                  <div id="MainResult" style="display: none">
+                    <!-- Response Here -->
+                  </div>
+                  <div class="input-group mb-4">
+                    <span
+                      class="input-group-text-copy rounded-pill input-group-text"
+                      id="basic-addon1"
+                      ><i class="ion-android-people"></i
+                    ></span>
+                    <input
+                      type="text"
+                      class="form-control-copy form-control"
+                      name="name"
+                      id="name"
+                      placeholder="Enter Name"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    />
+                    <label for="name" id="nameLb"
+                      ><span class="error" style="display: none"
+                        >*Name Required</span
+                      ></label
+                    >
+                  </div>
+                  <div class="input-group mb-4">
+                    <span
+                      class="input-group-text-copy rounded-pill input-group-text"
+                      id="basic-addon1"
+                      ><i class="ion-android-mail"></i
+                    ></span>
+                    <input
+                      type="text"
+                      class="form-control-copy form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Enter Email"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    />
+                    <label for="email" id="emailLb">
+                      <span class="error error1" style="display: none"
+                        >*Email Required</span
+                      >
+                      <span class="error error2" style="display: none"
+                        >*Email Not Valid</span
+                      >
+                    </label>
+                  </div>
+                  <div class="input-group mb-4">
+                    <span
+                      class="input-group-text-copy rounded-pill input-group-text"
+                      id="basic-addon1"
+                      ><i class="ion-android-call"></i
+                    ></span>
+                    <input
+                      type="tel"
+                      class="form-control-copy form-control"
+                      name="phone"
+                      id="phone"
+                      placeholder="Enter Phone"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    />
+                    <label for="phone" id="phoneLb"
+                      ><span class="error" style="display: none"
+                        >*Telephone Required</span
+                      ></label
+                    >
+                  </div>
+                  <div class="input-group mb-4">
+                    <span
+                      class="input-group-text-copy rounded-pill input-group-text"
+                      id="basic-addon1"
+                      ><i class="ion-android-clipboard"></i
+                    ></span>
+                    <input
+                      type="file"
+                      id="files"
+                      class="form-control-copy form-control custom-file-input"
+                      aria-describedby="basic-addon1"
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <button
+                      type="submit"
+                      class="round-btn btn w-100 border-0 py-4 career-btn"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    >
+                      <h3 class="d-inline" id="clr-btns">Send</h3>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-12 col-md-12 p-0 w-100">
+        <img
+          loading="lazy"
+          src="img/002.jpg"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+    </div>
+
+    <div
+      class="section fp-section fp-table"
+      id="contact"
+      data-anchor="contact"
+      style="height: 600px"
+    >
+      <div class="fp-tableCell" style="height: 600px">
+        <section>
+          <div class>
+            <div class="container-fluid p-0">
+              <div
+                class="bg-img lazy mask-dark"
+                data-bg="img/contact-us.jpg"
+                style="background-image: url('img/contact-us.jpg')"
+              ></div>
+              <!--Screen 100% height  -->
+              <div class="row m-0 d-flex h100">
+                <div
+                  class="col-xl-8 offset-xl-2 col-lg-12 col-md-12 p-0 align-items-stretch"
+                >
+                  <!--  background image -->
+                  <div class="block-content">
+                    <div class="block-content-inner">
+                      <!-- 100% height  -->
+                      <div class="d-flex h100">
+                        <div class="align-self-center w_100">
+                          <div class="relative">
+                            <div class="section-header-title text-center">
+                              <h3 class="section-title light">Contact us</h3>
+                            </div>
+                            <div class="pad-b-30 d-none d-xl-block"></div>
+                            <div id="form-wrapperc">
+                              <div id="form-inner">
+                                <div id="ErrResultsc">
+                                  <!-- Error Here -->
+                                </div>
+                                <div id="MainResultc" style="display: none">
+                                  <!-- Response Here -->
+                                </div>
+                                <div id="MainContent">
+                                  <form
+                                    id="MyContactForm"
+                                    name="google-form"
+                                    method="post"
+                                    class="mb-30"
+                                  >
+                                    <div class="row">
+                                      <div class="col-md-6">
+                                        <p class="name">
+                                          <input
+                                            type="text"
+                                            class="white"
+                                            name="Name"
+                                            id="Name"
+                                            placeholder="Your Name"
+                                          />
+                                          <label for="name" id="nameLbc"
+                                            ><span
+                                              class="errorc"
+                                              style="display: none"
+                                              >*Name Required</span
+                                            ></label
+                                          >
+                                        </p>
+                                        <p>
+                                          <input
+                                            type="email"
+                                            class="white"
+                                            name="Email"
+                                            id="Email"
+                                            placeholder="Your Email"
+                                          />
+                                          <label for="email" id="emailLbc">
+                                            <span
+                                              class="errorc error1c"
+                                              style="display: none"
+                                              >*Email Required</span
+                                            >
+                                            <span
+                                              class="errorc error2c"
+                                              style="display: none"
+                                              >*Email Not Valid</span
+                                            >
+                                          </label>
+                                        </p>
+                                        <p class="m-0">
+                                          <input
+                                            type="text"
+                                            class="white"
+                                            name="Phone"
+                                            id="Phone"
+                                            placeholder="Your Telephone"
+                                          />
+                                          <label for="phone" id="phoneLbc"
+                                            ><span
+                                              class="errorc"
+                                              style="display: none"
+                                              >*Telephone Required</span
+                                            ></label
+                                          >
+                                        </p>
+                                        <div
+                                          class="mb-30 d-sm-block d-md-none d-lg-none"
+                                        ></div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <p class="textarea">
+                                          <textarea
+                                            name="Message"
+                                            class="white"
+                                            id="Message"
+                                            placeholder="Your Message"
+                                            rows="4"
+                                          ></textarea>
+                                          <label for="message" id="messageLbc"
+                                            ><span
+                                              class="errorc"
+                                              style="display: none"
+                                              >*Message Required</span
+                                            ></label
+                                          >
+                                        </p>
+                                        <div class="text-left">
+                                          <a
+                                            href="#"
+                                            class="contact-btn btn-default m-0"
+                                            >Send Message</a
+                                          >
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </form>
+                                  <div
+                                    class="row addclr justify-content-between px-2 flex"
+                                  >
+                                    <div class="t col-lg-7">
+                                      <a
+                                        href="mailto:contact@theassignmenthub.com"
+                                        class="addclr"
+                                      >
+                                        <i
+                                          class="ion-ios-email-outline fs-3"
+                                        ></i>
+                                        contact@theassignmenthub.com
+                                      </a>
+                                      <p class="mt-1 addclr">
+                                        <i class="ion-home fs-3"></i> 70/38
+                                        Patel Marg, Mansarovar<span
+                                          class="d-block"
+                                          >Jaipur, Rajasthan, 302020
+                                        </span>
+                                      </p>
+                                    </div>
+                                    <div class="col-lg-2 iso-right">
+                                      <img
+                                        src="./img/iso-logo.png"
+                                        alt="ISO certified"
+                                      />
+                                    </div>
+                                    <div class="col-lg-3 iso-right">
+                                      <a
+                                        href="tel:+91-9352555548"
+                                        class="addclr"
+                                      >
+                                        <i class="ion-ios-telephone"></i>
+                                        +91-9352555548
+                                      </a>
+                                      <div class="clr1">
+                                        <a
+                                          href="https://www.instagram.com/the_assignment_hub/"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-instagram"></i>
+                                        </a>
+                                        <a
+                                          href="https://www.facebook.com/theassignmenthub/"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-facebook"></i>
+                                        </a>
+                                        <a
+                                          href="https://in.linkedin.com/company/assignment-hub-research-pvt-ltd/"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-linkedin"></i>
+                                        </a>
+                                        <a
+                                          href="https://api.whatsapp.com/send/?phone=+919352555548&text=Hello"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-whatsapp"></i>
+                                        </a>
+                                        <a
+                                          href="https://twitter.com/AssignmentPvt"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-twitter"></i>
+                                        </a>
+                                        <a
+                                          href="https://www.youtube.com/channel/UC2mPcLyepQN9-2pJPAl43Bw/featured"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-youtube"></i>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!--MainContent-->
+                                </div>
+                                <!--form-inner-->
+                              </div>
+                              <div class="pad-b-60 d-block d-xl-none"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- End Section footer  -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NHRKTSZ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  </body>
+</html>

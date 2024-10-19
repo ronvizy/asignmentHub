@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  style="overflow: visible; height: initial"
+  class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths fp-enabled"
+>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>The Assignment Hub</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="description" content="The Assignment Hub" />
+    <meta name="keywords" content="Satisfaction, investigation, money back, necessary actions immediately" />
+    <meta name="author" content="The Assignment Hub" />
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <![endif]-->
+    <link rel="icon" href="img/favicon.ico" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="main.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "The Assignment Hub",
+        "image": "https://theassignmenthub.com/img/assignmenthub-logo-icon.png",
+        "@id": "",
+        "url": "https://theassignmenthub.com/",
+        "telephone": "+91-9352555548",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "70/38 Patel Marg, Mansarovar",
+          "addressLocality": "Jaipur",
+          "postalCode": "302020",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 26.853632,
+          "longitude": 75.770146
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      }
+    </script>
+  </head>
+
+  <body
+    onload="myLoader()"
+    class="backgrond-police fp- responsive fp-viewing-price"
+    style="overflow: visible; height: initial"
+  >
+    <div id="loader-div">
+      <div class="loader"></div>
+    </div>
+
+    <!-- =======================
+       =====     Header  ======
+       =========================-->
+    <header class="fixed-top">
+      <!-- =======================
+            =====     Navbar   ======
+            =========================-->
+
+      <nav
+        id="navbar-onepage"
+        class="navbar onclick-hide navbar-expand-lg navbar-dark"
+      >
+        <a class="navbar-brand pr-0 pl-0 mr-0" href="/">
+          <img
+            loading="lazy"
+            src="img/assignmenthub-logo-icon.png"
+            class="logo-img"
+          />
+        </a>
+        <button class="navbar-toggler" type="button">
+          <span class="icon-bar-line x1"></span>
+          <span class="icon-bar-line x2"></span>
+          <span class="icon-bar-line x3"></span>
+        </button>
+        <div class="navbar-img">
+          <div class="menu-img"></div>
+          <div class="menu-title"></div>
+        </div>
+        <div class="collapse navbar-collapse">
+          <div class="block-menu">
+            <div class="block-menu-inner">
+              <ul id="menu" class="navbar-nav">
+                <li
+                  data-menuanchor="home"
+                  class="nav-item animated fadeInRightBig"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#home"
+                    data-bg="img/home.jpg"
+                    >Home</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="about"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#about"
+                    data-bg="img/about.jpg"
+                    >About</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="feature"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#feature"
+                    data-bg="img/our_features.jpg"
+                    >OUR FEATURES</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="work"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#work"
+                    data-bg="img/services.jpg"
+                    >SERVICES</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="price"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#price"
+                    data-bg="img/our_plan.jpg"
+                    >PLANS</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="blog"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#blog"
+                    data-bg="img/our_blog.jpg"
+                    >Blog</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="testimonial"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#testimonial"
+                    data-bg="img/reviews.jpg"
+                    >Review</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="contact"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a class="nav-link" href="#contact" data-bg="img/contact.jpg"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="/policy.html"
+                    data-bg="img/privacy.jpg"
+                    >Privacy Policies</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated active">
+                  <a
+                    class="nav-link active current"
+                    href="/refund-policy.html"
+                    data-bg="img/refund-policy-01.jpg"
+                    >Refund Policies</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="/paynow.html"
+                    data-bg="img/paynow.jpg"
+                    >Book Now</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="career.html"
+                    data-bg="img/career.jpg"
+                    >Career</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="/terms-and-conditions.html"
+                    data-bg="img/terms-and-conditions-01.jpg"
+                    >Terms and Conditions</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar-bottom text-right fadeInUpBig animated">
+            <p class="light">The Assignment Hub</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="row-policy p-0">
+      <div class="col-xl-6 col-lg-12 col-md-12 p-0 w-100">
+        <img
+          loading="lazy"
+          src="./img/refund-policy.jpg"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+      <div
+        class="col-xl-6 col-lg-12 col-md-12 p-0 align-items-stretch over-h polices-bg"
+      >
+        <div class="h100 relative">
+          <!-- <div class="bg-img lazy mask-dark" id="policies" data-bg="img/refund-policy.jpg"
+                    style="background-image: url('img/refund-policy.jpg') ;">
+                </div> -->
+          <div class="block-content">
+            <div class="block-content-inner">
+              <div class="d-flex">
+                <div class="align-self-center w_100 relative">
+                  <div class="section-header-title text-center">
+                    <h3 class="section-title light">
+                      Refund<span class="d-block">Policy</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top"></div>
+
+    <div class="container top-space">
+      <div>
+        <h4 class="text-white">Refund Policy</h4>
+      </div>
+      <p>
+        The satisfaction of our customers is the most important thing to us. If
+        you are dissatisfied with the services that we have provided, we will
+        refund your purchase if the reasons that you state are reasonable and
+        can be confirmed via an investigation. You need to study the fine print
+        if you want to have a complete understanding of a product or service.
+        This is especially true with legal documents. In the event that a client
+        is unhappy with the services we provided, they have the option to cancel
+        their projects and request a refund. The authors at Academic Writing
+        Experts are so committed to ensuring that their clients are happy with
+        their work that they provide infinite revisions at no additional charge.
+      </p>
+      <p>
+        Take a look at the specifics of our policy on the return of your payment
+        in the event that you change your mind.
+      </p>
+      <ul class="text-white mb-60">
+        <li>
+          Please make sure to give the content of this page a close read in
+          order to get an understanding of the criteria that must be met in
+          order to qualify for a refund. During the process of placing a
+          purchase, you will be prompted to consent to a number of policies.
+        </li>
+        <li>
+          No request for a refund, regardless of how justified it may be, will
+          result in the return of the whole amount.
+        </li>
+        <li>Any demand for refund will not be entitled for 100% money back.</li>
+        <li>
+          When a revision is currently being worked on, requests for additional
+          work that were not specified when the order was placed will not be
+          honoured under any circumstances. In consideration for the provision
+          of these services, the corporation will retain 50% of the charge that
+          is collected.
+        </li>
+        <li>
+          If the student receives a fail (F) grade for the order that was
+          supplied from our forum or if there is more than 30% plagiarism found
+          in the order that was delivered by us, then the student will get a
+          full refund. Only once students have submitted their refund requests
+          along with appropriate documents will a check be issued (s).
+        </li>
+        <li>
+          Refund will only be issued to students after they provided authentic
+          proof(s).
+        </li>
+        <li>
+          After a period of 30 days has elapsed from the delivery of an order,
+          orders that ask for refunds will have a thorough investigation
+          conducted on them. This might take up to a month to complete.
+        </li>
+        <li>
+          We feel it's important to make it very clear that the owner of the
+          firm has entire discretion regarding the amount of the refund. The
+          number of times you request adjustments or a full rewrite will
+          determine the total cost that you will be responsible for paying.
+        </li>
+        <li>
+          In case of any refund request or double charge dispute, the client
+          must talk to the customer support team so we can take the necessary
+          actions immediately.
+        </li>
+        <li>
+          If you find that you have been charged twice-using 2CHECKOUT, PAYPAL,
+          CCAVENUE, or any other payment method, please let us know as soon as
+          possible. You may get in touch with one of our representatives at any
+          moment by sending an email to contact@theassignmenthub.com, or by
+          starting a Google chat session. We will promptly refund any unused
+          portion of your payment.
+        </li>
+        <li>
+          The company will not provide you a refund if you ask for one when the
+          deadline for your purchase is less than 48 hours away, or if your
+          dissertation is due in 10 days or less.
+        </li>
+        <li>
+          Refunds are only made if any of the above-mentioned term and condition
+          is being satisfied and the Quality Assurance Department approves the
+          case.
+        </li>
+      </ul>
+    </div>
+    <div
+      class="section fp-section fp-table"
+      id="contact"
+      data-anchor="contact"
+      style="height: 600px"
+    >
+      <div class="fp-tableCell" style="height: 600px">
+        <section>
+          <div class>
+            <div class="container-fluid p-0">
+              <div
+                class="bg-img lazy mask-dark"
+                data-bg="img/contact-us.jpg"
+                style="background-image: url('img/contact-us.jpg')"
+              ></div>
+              <!--Screen 100% height  -->
+              <div class="row m-0 d-flex h100">
+                <div
+                  class="col-xl-8 offset-xl-2 col-lg-12 col-md-12 p-0 align-items-stretch"
+                >
+                  <!--  background image -->
+                  <div class="block-content">
+                    <div class="block-content-inner">
+                      <!-- 100% height  -->
+                      <div class="d-flex h100">
+                        <div class="align-self-center w_100">
+                          <div class="relative">
+                            <div class="section-header-title text-center">
+                              <h3 class="section-title light">Contact us</h3>
+                            </div>
+                            <div class="pad-b-30 d-none d-xl-block"></div>
+                            <div id="form-wrapperc">
+                              <div id="form-inner">
+                                <div id="ErrResultsc">
+                                  <!-- Error Here -->
+                                </div>
+                                <div id="MainResultc" style="display: none">
+                                  <!-- Response Here -->
+                                </div>
+                                <div id="MainContent">
+                                  <form
+                                    id="MyContactForm"
+                                    name="google-form"
+                                    method="post"
+                                    class="mb-30"
+                                  >
+                                    <div class="row">
+                                      <div class="col-md-6">
+                                        <p class="name">
+                                          <input
+                                            type="text"
+                                            class="white"
+                                            name="Name"
+                                            id="Name"
+                                            placeholder="Your Name"
+                                          />
+                                          <label for="name" id="nameLbc"
+                                            ><span
+                                              class="errorc"
+                                              style="display: none"
+                                              >*Name Required</span
+                                            ></label
+                                          >
+                                        </p>
+                                        <p>
+                                          <input
+                                            type="email"
+                                            class="white"
+                                            name="Email"
+                                            id="Email"
+                                            placeholder="Your Email"
+                                          />
+                                          <label for="email" id="emailLbc">
+                                            <span
+                                              class="errorc error1c"
+                                              style="display: none"
+                                              >*Email Required</span
+                                            >
+                                            <span
+                                              class="errorc error2c"
+                                              style="display: none"
+                                              >*Email Not Valid</span
+                                            >
+                                          </label>
+                                        </p>
+                                        <p class="m-0">
+                                          <input
+                                            type="text"
+                                            class="white"
+                                            name="Phone"
+                                            id="Phone"
+                                            placeholder="Your Telephone"
+                                          />
+                                          <label for="phone" id="phoneLbc"
+                                            ><span
+                                              class="errorc"
+                                              style="display: none"
+                                              >*Telephone Required</span
+                                            ></label
+                                          >
+                                        </p>
+                                        <div
+                                          class="mb-30 d-sm-block d-md-none d-lg-none"
+                                        ></div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <p class="textarea">
+                                          <textarea
+                                            name="Message"
+                                            class="white"
+                                            id="Message"
+                                            placeholder="Your Message"
+                                            rows="4"
+                                          ></textarea>
+                                          <label for="message" id="messageLbc"
+                                            ><span
+                                              class="errorc"
+                                              style="display: none"
+                                              >*Message Required</span
+                                            ></label
+                                          >
+                                        </p>
+                                        <div class="text-left">
+                                          <a
+                                            href="#"
+                                            class="contact-btn btn-default m-0"
+                                            >Send Message</a
+                                          >
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </form>
+                                  <div
+                                    class="row addclr justify-content-between px-2 flex"
+                                  >
+                                    <div class="t col-lg-7">
+                                      <a
+                                        href="mailto:contact@theassignmenthub.com"
+                                        class="addclr"
+                                      >
+                                        <i
+                                          class="ion-ios-email-outline fs-3"
+                                        ></i>
+                                        contact@theassignmenthub.com
+                                      </a>
+                                      <p class="mt-1 addclr">
+                                        <i class="ion-home fs-3"></i> 70/38
+                                        Patel Marg, Mansarovar<span
+                                          class="d-block"
+                                          >Jaipur, Rajasthan, 302020
+                                        </span>
+                                      </p>
+                                    </div>
+                                    <div class="col-lg-2 iso-right">
+                                      <img
+                                        src="./img/iso-logo.png"
+                                        alt="ISO certified"
+                                      />
+                                    </div>
+                                    <div class="col-lg-3 iso-right">
+                                      <a
+                                        href="tel:+91-9352555548"
+                                        class="addclr"
+                                      >
+                                        <i class="ion-ios-telephone"></i>
+                                        +91-9352555548
+                                      </a>
+                                      <div class="clr1">
+                                        <a
+                                          href="https://www.instagram.com/the_assignment_hub/"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-instagram"></i>
+                                        </a>
+                                        <a
+                                          href="https://www.facebook.com/theassignmenthub/"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-facebook"></i>
+                                        </a>
+                                        <a
+                                          href="https://in.linkedin.com/company/assignment-hub-research-pvt-ltd/"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-linkedin"></i>
+                                        </a>
+                                        <a
+                                          href="https://api.whatsapp.com/send/?phone=+919352555548&text=Hello"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-whatsapp"></i>
+                                        </a>
+                                        <a
+                                          href="https://twitter.com/AssignmentPvt"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-twitter"></i>
+                                        </a>
+                                        <a
+                                          href="https://www.youtube.com/channel/UC2mPcLyepQN9-2pJPAl43Bw/featured"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-youtube"></i>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!--MainContent-->
+                                </div>
+                                <!--form-inner-->
+                              </div>
+                              <div class="pad-b-60 d-block d-xl-none"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- End Section footer -->
+
+    <!-- Google Tag Manager -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NHRKTSZ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      >
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  </body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  style="overflow: visible; height: initial"
+  class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths fp-enabled"
+>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>The Assignment Hub</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="description" content="The Assignment Hub" />
+    <meta name="author" content="The Assignment Hub" />
+    <link rel="icon" href="../img/favicon.ico" />
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <![endif]-->
+    <link href="../style.css" rel="stylesheet" />
+    <script src="../main.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "The Assignment Hub",
+        "image": "https://theassignmenthub.com/img/assignmenthub-logo-icon.png",
+        "@id": "",
+        "url": "https://theassignmenthub.com/",
+        "telephone": "+91-9352555548",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "70/38 Patel Marg, Mansarovar",
+          "addressLocality": "Jaipur",
+          "postalCode": "302020",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 26.853632,
+          "longitude": 75.770146
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      }
+    </script>
+  </head>
+
+  <body
+    onload="myLoader()"
+    class="fp- responsive fp-viewing-price"
+    style="overflow: visible; height: initial"
+  >
+    <div id="loader-div">
+      <div class="loader"></div>
+    </div>
+
+    <!-- ===================     Header  =====================-->
+    <header class="fixed-top">
+      <!-- ==================     Navbar   =====================-->
+      <nav
+        id="navbar-onepage"
+        class="navbar onclick-hide navbar-expand-lg navbar-dark"
+      >
+        <a class="navbar-brand pr-0 pl-0 mr-0" href="/">
+          <img
+            loading="lazy"
+            src="../img/assignmenthub-logo-icon.png"
+            class="logo-img"
+          />
+        </a>
+        <button class="navbar-toggler" type="button">
+          <span class="icon-bar-line x1"></span>
+          <span class="icon-bar-line x2"></span>
+          <span class="icon-bar-line x3"></span>
+        </button>
+        <div class="navbar-img">
+          <div class="menu-img"></div>
+        </div>
+        <div class="collapse navbar-collapse">
+          <div class="block-menu">
+            <div class="block-menu-inner">
+              <ul id="menu" class="navbar-nav">
+                <li
+                  data-menuanchor="home"
+                  class="nav-item animated fadeInRightBig"
+                >
+                  <a class="nav-link" href="/" data-bg="img/home.jpg">Home</a>
+                </li>
+
+                <li
+                  data-menuanchor="about"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#about"
+                    data-bg="img/about.jpg"
+                    >About</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="feature"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#feature"
+                    data-bg="img/our_features.jpg"
+                    >OUR FEATURES</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="work"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#work"
+                    data-bg="img/services.jpg"
+                    >SERVICES</a
+                  >
+                </li>
+
+                <li
+                  data-menuanchor="price"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#price"
+                    data-bg="img/our_plan.jpg"
+                    >PLANS</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="blog"
+                  class="nav-item fadeInRightBig animated active"
+                >
+                  <a
+                    class="nav-link active current"
+                    href="/index.html#blog"
+                    data-bg="img/our_blog.jpg"
+                    >Blog</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="testimonial"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#testimonial"
+                    data-bg="img/reviews.jpg"
+                    >Review</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="contact"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#contact"
+                    data-bg="img/contact.jpg"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    data-bg="img/privacy.jpg"
+                    href="/policy.html"
+                    >Privacy Policies</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="/refund-policy.html"
+                    data-bg="img/privacy.jpg"
+                    >Refund Policies</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="/paynow.html"
+                    data-bg="img/paynow.jpg"
+                    >Book Now</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="/career.html"
+                    data-bg="img/career.jpg"
+                    >Career</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="/terms-and-conditions.html"
+                    data-bg="img/terms-and-conditions-01.jpg"
+                    >Terms and Conditions</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="navbar-bottom text-right fadeInUpBig animated">
+            <p class="light">The Assignment Hub</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="row-policy p-0">
+      <div class="col-xl-12 col-lg-12 col-md-12 p-0 w-100">
+        <img
+          loading="lazy"
+          src="/img/404.jpg"
+          alt="Page Not Found"
+          style="width: 100%; max-height: 100vh"
+        />
+      </div>
+    </div>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NHRKTSZ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      >
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!--  Schema Tag -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theassignmenthub.com/blogs/another-achievement-for-getraise-group"
+        },
+        "headline": "Another Achievement For Getraise Group",
+        "image": [
+          "https://theassignmenthub.com/img/blog-page-achievement.jpg",
+          "https://theassignmenthub.com/img/bhoomika.jpg"
+        ],
+        "author": {
+          "@type": "Person",
+          "name": "Bhoomika Sharma",
+          "url": "https://theassignmenthub.com/blogs/another-achievement-for-getraise-group"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "",
+          "logo": {
+            "@type": "ImageObject",
+            "url": ""
+          }
+        },
+        "datePublished": "2022-06-03"
+      }
+    </script>
+    <!-- End Schema Tag -->
+  </body>
+</html>

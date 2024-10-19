@@ -1,0 +1,28 @@
+{
+  "name": "assignment-hub",
+  "version": "1.0.0",
+  "description": "Assignment Hub Project",
+  "main": "index.js",
+  "repository": "git@github.com:getraisetechnologies/assignment-hub-html.git",
+  "author": "Getraise Technologies",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev:lix": "export NODE_ENV=development && gulp",
+    "dev:win": "set NODE_ENV=development && gulp",
+    "prod:win": "set NODE_ENV=production && gulp",
+    "prod:lix": "export NODE_ENV=production && gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^4.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-minifier": "^3.5.0",
+    "gulp-noop": "^1.0.1",
+    "gulp-uglify": "^3.0.2"
+  }
+}

@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  style="overflow: visible; height: initial"
+  class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths fp-enabled"
+>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>The Assignment Hub</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="description" content="The Assignment Hub" />
+    <meta name="keywords" content="The assignment hub collects, processes, application interface, improve quality, legal processz" />
+    <meta name="author" content="The Assignment Hub" />
+
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <![endif]-->
+    <link rel="icon" href="img/favicon.ico" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="main.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "The Assignment Hub",
+        "image": "https://theassignmenthub.com/img/assignmenthub-logo-icon.png",
+        "@id": "",
+        "url": "https://theassignmenthub.com/",
+        "telephone": "+91-9352555548",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "70/38 Patel Marg, Mansarovar",
+          "addressLocality": "Jaipur",
+          "postalCode": "302020",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 26.853632,
+          "longitude": 75.770146
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      }
+    </script>
+  </head>
+
+  <body
+    onload="myLoader()"
+    class="backgrond-police fp- responsive fp-viewing-price"
+    style="overflow: visible; height: initial"
+  >
+    <div id="loader-div">
+      <div class="loader"></div>
+    </div>
+
+    <!-- =======================
+     =====     Header  ======
+     =========================-->
+    <header class="fixed-top">
+      <!-- =======================
+            =====     Navbar   ======
+            =========================-->
+
+      <nav
+        id="navbar-onepage"
+        class="navbar onclick-hide navbar-expand-lg navbar-dark"
+      >
+        <a class="navbar-brand pr-0 pl-0 mr-0" href="/"
+          ><img
+            loading="lazy"
+            src="img/assignmenthub-logo-icon.png"
+            class="logo-img"
+        /></a>
+        <button class="navbar-toggler" type="button">
+          <span class="icon-bar-line x1"></span>
+          <span class="icon-bar-line x2"></span>
+          <span class="icon-bar-line x3"></span>
+        </button>
+        <div class="navbar-img">
+          <div class="menu-img"></div>
+          <div class="menu-title"></div>
+        </div>
+        <div class="collapse navbar-collapse">
+          <div class="block-menu">
+            <div class="block-menu-inner">
+              <ul id="menu" class="navbar-nav">
+                <li
+                  data-menuanchor="home"
+                  class="nav-item animated fadeInRightBig"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#home"
+                    data-bg="img/home.jpg"
+                    >Home</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="about"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#about"
+                    data-bg="img/about.jpg"
+                    >About</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="feature"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#feature"
+                    data-bg="img/our_features.jpg"
+                    >OUR FEATURES</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="work"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#work"
+                    data-bg="img/services.jpg"
+                    >SERVICES</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="price"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#price"
+                    data-bg="img/our_plan.jpg"
+                    >PLANS</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="blog"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#blog"
+                    data-bg="img/our_blog.jpg"
+                    >Blog</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="testimonial"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a
+                    class="nav-link"
+                    href="/index.html#testimonial"
+                    data-bg="img/reviews.jpg"
+                    >Review</a
+                  >
+                </li>
+                <li
+                  data-menuanchor="contact"
+                  class="nav-item fadeInRightBig animated"
+                >
+                  <a class="nav-link" href="#contact" data-bg="img/contact.jpg"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated active">
+                  <a
+                    class="nav-link active current"
+                    href="/policy.html"
+                    data-bg="img/privacy.jpg"
+                    >Privacy Policies</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="/refund-policy.html"
+                    data-bg="img/refund-policy-01.jpg"
+                    >Refund Policies</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="/paynow.html"
+                    data-bg="img/paynow.jpg"
+                    >Book Now</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link current"
+                    href="career.html"
+                    data-bg="img/career.jpg"
+                    >Career</a
+                  >
+                </li>
+                <li class="nav-item fadeInRightBig animated">
+                  <a
+                    class="nav-link"
+                    href="/terms-and-conditions.html"
+                    data-bg="img/terms-and-conditions-01.jpg"
+                    >Terms and Conditions</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="navbar-bottom text-right fadeInUpBig animated">
+            <p class="light">The Assignment Hub</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="row-policy p-0">
+      <div class="col-xl-6 col-lg-12 col-md-12 p-0 w-100">
+        <img
+          loading="lazy"
+          src="./img/polices.jpg"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+      <div
+        class="col-xl-6 col-lg-12 col-md-12 p-0 align-items-stretch over-h polices-bg"
+      >
+        <div class="h100 relative">
+          <div
+            class="bg-img lazy mask-dark"
+            id="policies"
+            data-bg="img/privacy-policy.jpg"
+            style="background-image: url('img/privacy-policy.jpg')"
+          ></div>
+          <div class="block-content">
+            <div class="block-content-inner">
+              <div class="d-flex">
+                <div class="align-self-center w_100 relative">
+                  <div class="section-header-title text-center">
+                    <h3 class="section-title light">
+                      Privacy<span class="d-block"> Policy</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top"></div>
+
+    <div class="container top-space">
+      <div>
+        <h4 class="text-white">Privacy Policy</h4>
+      </div>
+      <p class="text-white">
+        The Assignment Hub research Pvt. Ltd.(hereafter referred to as The
+        Assignment Hub) and/or its affiliates are committed to protecting all
+        the information you share with us. We follow stringent procedures to
+        protect the confidentiality, security, and integrity of data stored on
+        our systems. Only those employees who need access to your information in
+        order to perform their duties are allowed such access. Any employee who
+        violates our privacy and/or security policies is subject to disciplinary
+        action, including possible termination and civil and/or criminal
+        prosecution, The Assignment Hub’s topmost priority is in protecting your
+        confidential information and privacy.
+      </p>
+
+      <p>
+        This privacy policy tells you how we use your personal information
+        collected through the www.theassignmenthub.com. Please read this privacy
+        policy before using the www.theassignmenthub.com or submitting any
+        personal information. This policy will be updated subject to any changes
+        in information collection, activities performed or any applicable
+        regulations. You are encouraged to review the privacy policy whenever
+        you visit the www.theassignmenthub.com to make sure that you understand
+        how any personal information you provide will be used.
+      </p>
+      <p><strong>Please Note:</strong></p>
+      <p>
+        The privacy practices set forth in this privacy policy are for
+        www.theassignmenthub.com only. If you link to other web sites, please
+        review those privacy policies, which may be very different.
+      </p>
+      <p><strong>COLLECTION AND USE OF INFORMATION</strong></p>
+      <p><strong>COLLECTION OF YOUR INFORMATION</strong></p>
+      <p>
+        The Assignment Hub collects, processes, and retains information about
+        you when you visit our www.theassignmenthub.com. You may choose to
+        provide us with information, such as your name, email address, company
+        information, street address, telephone number, or other information, to
+        access protected information on www.theassignmenthub.com or so we can
+        follow up with you after your visit. Personal Information may include,
+        but is not limited to:
+      </p>
+      <ul class="text-white">
+        <li>Your name,</li>
+        <li>Email addresses,</li>
+        <li>Telephone numbers</li>
+        <li>Country, City, and State</li>
+      </ul>
+      <p><strong>REGISTRATION</strong></p>
+      <p>
+        The Assignment Hub keeps track of your information to offer you the best
+        possible experience. A data subject has to provide an email address is
+        the mandatory Personal Information during registration (sign-up). Post
+        this registration, The Assignment Hub will be able to access your
+        account every time you visit the Website. The customers also have to
+        provide other Personal Information (instance - name, phone number,
+        email, billing and shipping addresses) before completing the first
+        purchase.
+      </p>
+      <p><strong>HOW WE USE YOUR INFORMATION</strong></p>
+      <p>
+        Any of the information we collect from you may be used in one of the
+        following ways:
+      </p>
+      <ul class="text-white">
+        <li>
+          To gather details about prospect customers: Your information helps us
+          to more effectively respond to your requests and queries to make the
+          application interface user-friendly.
+        </li>
+        <li>
+          To send periodic emails: Subject to your prior approval, we may use
+          the information you share with us, to communicate with you through
+          e-mails, text messages, and calls, in order to provide our product or
+          service related information and/or for promotional and marketing
+          purposes.
+        </li>
+        <li>
+          Select Content, Improve Quality and Facilitate Use of the other
+          interface channels: The Assignment Hub may use your Personal
+          Information to help create and personalize content on our Channels,
+          facilitate your use of the Channels (for example, to facilitate
+          navigation and the login process, avoid duplicate data entry, enhance
+          security, improve quality, track campaign and survey responsiveness
+          and evaluate page response rates.
+        </li>
+        <li>
+          Obtain Third Party Services: We also share Personal Information and
+          Other Information with affiliates/subsidiaries and third parties who
+          provide services to The Assignment Hub website management, information
+          technology, and related infrastructure provision, customer service,
+          e-mail delivery, auditing and other similar services. When The
+          Assignment Hub shares Personal Information with
+          affiliates/subsidiaries, third parties, service providers, we assure
+          you that they use your Personal Information and Other Information only
+          for the purpose of providing services to us and subject to terms
+          consistent with this policy.
+        </li>
+      </ul>
+      <p><strong>FAIRNESS AND PURPOSE</strong></p>
+      <p>
+        The Assignment Hub will collect adequate, relevant and necessary
+        Personal Information and will process such information fairly and
+        lawfully for the purpose it is collected. The purpose of collection will
+        be specified not later than at the time of data collection or on each
+        occasion of change of purpose.
+      </p>
+      <p><strong>DISTRIBUTION OF INFORMATION</strong></p>
+      <p><strong>INFORMATION DISCLOSURE</strong></p>
+      <p>
+        The Assignment Hub does not share, sell, rent, or trade personal
+        information collected through its www.theassignmenthub.com with third
+        parties for their sole promotional purposes or as otherwise outlined in
+        this Privacy Policy. The Assignment Hub may share information with
+        third-party service providers contracted to provide services on our
+        behalf for processing to provide your employment-related services and
+        benefits and other business purposes. These third-party service
+        providers may only use the information we provide to them as requested
+        and instructed by The Assignment Hub.
+      </p>
+      <ul class="text-white">
+        <li>
+          The Assignment Hub may disclose your Personal Information as we
+          believe to be necessary or appropriate:
+        </li>
+        <li>
+          under applicable law, including laws outside your country of
+          residence;
+        </li>
+        <li>to comply with legal process;</li>
+        <li>
+          to respond to requests from public and government authorities,
+          including public and government authorities outside your country of
+          residence, for national security and/or law enforcement purposes;
+        </li>
+        <li>to enforce our terms and conditions; and</li>
+        <li>
+          to allow us to pursue available remedies or limit the damages that we
+          may sustain. Additionally, in the event of a reorganization, merger,
+          sale, joint venture, assignment, transfer or other disposition of all
+          or any portion of our business, assets or stock (including in
+          connection with any bankruptcy or similar proceedings), we may
+          transfer the Personal Information which we have collected to the
+          affiliates/subsidiaries/ relevant third party. We may share
+          information with governmental agencies or other companies assisting us
+          in fraud prevention or investigation. We may do so when:
+        </li>
+        <li>permitted or required by law; or,</li>
+        <li>
+          trying to protect against or prevent actual or potential fraud or
+          unauthorized transactions; or,
+        </li>
+        <li>
+          Investigating fraud which has already taken place. The information is
+          not provided to these companies for marketing purposes.
+        </li>
+      </ul>
+      <p>
+        If The Assignment Hub goes through a business transition, such as a
+        merger, acquisition by another company, or sale of all or a portion of
+        its assets, the personal information collected from the customers (i.e.
+        collected through our website(s)) may be treated as an
+        assets-transferred. Not having a retrospective effect, a notice will
+        appear on our website(s) for 30 days after any such change in ownership
+        or control of your personal information.
+      </p>
+      <p>
+        To improve your Web experience, and to offer you products in which you
+        might be interested, we provide links to business alliance companies,
+        The Assignment Hub dealers, and other third-party sites. When you click
+        on these links, you will be transferred out of our Web site and
+        connected to the Web site of the organization or company that you
+        selected. Because The Assignment Hub does not control these sites (even
+        if an affiliation exists between our Web sites and a third party site),
+        you are encouraged to review their individual privacy notices. If you
+        visit a Web site that is linked to our sites, you should consult that
+        site's privacy policy before providing any Customer Identifiable
+        Information. The Assignment Hub does not assume any responsibility or
+        liability in relation to the conduct of such third parties.
+      </p>
+      <p><strong>CROSS-BORDER DATA TRANSFERS</strong></p>
+      <p>
+        When conducting business, working on Company projects, or implementing
+        new processes or systems, an operation may require the transfer of
+        personal information to other entities or third parties that are located
+        outside of the The Assignment Hub operation’s country of business. While
+        permissible data transfer mechanisms are defined by applicable law or
+        regulation, examples include:
+      </p>
+      <ul class="text-white">
+        <li>
+          a data transfer agreement with the party who will access or obtain the
+          personal information;
+        </li>
+        <li>
+          notice to and/or approval from a country’s local data protection
+          authority; or
+        </li>
+        <li>
+          notice to and/or consent from the individual whose data is to be
+          transferred.
+        </li>
+      </ul>
+      <p><strong>CONSENT AND CONTROL</strong></p>
+      <p><strong>CONSENT</strong></p>
+      <p>
+        Consent is often referred to as an individual’s choice to “opt-in” or
+        “opt-out” of the Company’s use of personal information and is usually
+        obtained by a “checkbox” or signature confirming the individual
+        understands and agrees to the processing of their personal information.
+        At times, express written consent from the individual may be required
+        based on the information processing activity. The Assignment Hub
+        receives consent from individuals prior to: collecting, using, or
+        processing their personal information, including sensitive personal
+        information, in certain ways or sharing the individual’s personal
+        information with any third party; transferring the individual’s personal
+        information outside of the individual’s country of residence using or
+        placing web cookies on an individual’s computer or other electronic
+        devices.
+      </p>
+      <p><strong>CONTROL OF YOUR INFORMATION</strong></p>
+      <p>
+        You may request to review, correct, update, suppress, or otherwise
+        modify any of your Personal Information that you have previously
+        provided to us through www.theassignmenthub.com, or object to the use or
+        processing of such Personal Information by us. If you have concerns
+        regarding access to or the correction of your Personal Information,
+        please contact us at the privacy contact information mentioned within
+        Section 11 “Privacy Contact Information” of this policy. In your
+        request, please make clear what Personal Information you would like to
+        have changed, whether you would like to have your Personal Information
+        that you have provided to us suppressed from our database or otherwise
+        let us know what limitations you would like to put on our use of your
+        Personal Information that you have provided to us.
+      </p>
+      <p>
+        While the majority of questions and issues related to access can be
+        handled quickly, complex requests may take more research and time. In
+        such cases, issues will be addressed, or you will be contacted regarding
+        the nature of the problem and appropriate next steps, within thirty
+        days.
+      </p>
+      <p>
+        The Assignment Hub may transfer your information from
+        www.theassignmenthub.com to other databases and store it on The
+        Assignment Hub or other supplier systems. The Assignment Hub ensures
+        appropriate security controls while storing data on its or its
+        supplier’s systems.
+      </p>
+      <p><strong>COMMITMENT TO DATA SECURITY</strong></p>
+      <p>
+        Your personally identifiable information is kept secure. Only authorized
+        employees, business partners, clients, vendors, affiliates/subsidiaries
+        and other third-party providers (who have agreed to keep information
+        secure and confidential) have access to this information. The Assignment
+        Hub ensures that our supplier employs industry-standard security
+        measures to ensure the security of information through legally binding
+        terms and conditions. However, users of our www.theassignmenthub.com are
+        responsible for maintaining the security of any password, user ID, or
+        other forms of authentication involved in obtaining access to password
+        protected or secure areas of any Workday websites. Access to and use of
+        password protected and/or secure area of www.theassignmenthub.com is
+        restricted to authorized users only. Unauthorized access to such areas
+        is prohibited and may lead to criminal prosecution.
+      </p>
+
+      <p><strong>USE OF COOKIES</strong></p>
+      <p>
+        Like many other transactional websites, we use “cookies” to improve your
+        shopping experience and to save you time. Cookies are little tags that
+        we place onto your computer. We assign a cookie to your computer when
+        you first visit us in order to enable us to recognize you each time you
+        return. Through cookies, we can customize our Website to your individual
+        preferences in order to create a more personalized, convenient shopping
+        experience. Please note that the cookies we use for our Website or email
+        campaigns do not store personally identifiable information about you or
+        your finances. The Assignment Hub may offer certain features that are
+        only available through the use of a “cookie”. The Assignment Hub does
+        not control the use of cookies by third parties and is not responsible
+        for the same. The Assignment Hub may in addition also offer certain
+        features that are only available through the use of a “cookie”.
+      </p>
+
+      <p><strong>RETENTION AND DISPOSAL</strong></p>
+      <p>
+        The Assignment Hub Personal information shall be retained only as long
+        as necessary for the fulfillment of the stated purposes and should be
+        disposed of thereafter. We will retain your information for as long as
+        your account is active or as needed to provide you services. If you wish
+        that we no longer use your information to provide you services, contact
+        us via the information provided in section 11 of this privacy policy. We
+        will respond to your request within 30 days of receipt of the request.
+        However, we may also retain and use your information as necessary to
+        comply with our legal obligations, resolve disputes, and enforce our
+        agreements.
+      </p>
+
+      <p><strong>YOUR CONSENT</strong></p>
+      <p>
+        Your consent to personal data collection and processing may be revoked
+        by notifying us via our contact page. For users below the age of 16, the
+        consent should be provided by the holder of parental responsibility of
+        the child.
+      </p>
+      <p>
+        Please note, in case you (the customer) is not willing to provide
+        consent or withdraw the consent at any given point of time, The
+        Assignment Hub shall not be able to provide the services as detailed
+        above in section 2.2 of this policy.
+      </p>
+
+      <p><strong>PRIVACY CONTACT INFORMATION</strong></p>
+      <p>
+        If you have any questions regarding our Privacy Statement or if you need
+        to update, change or remove information, you can do so by regular mail
+        addressed to contact@theassignmenthub.com
+      </p>
+
+      <p><strong>CHANGES TO THE PRIVACY POLICY</strong></p>
+      <div class="col-sm-12">
+        <p class="pb-5 px-0">
+          From time to time we may update this Privacy Policy without any prior
+          notice. Your continued subscription to our Services constitutes an
+          acceptance of the current Privacy Policy and Terms &amp; Conditions.
+          Therefore, we encourage you to visit this page.
+          <a
+            class="text-white hover-grey"
+            href="https://www.theassignmenthub.com/policy.html"
+            ><b>Policy</b>
+          </a>
+          periodically to review any changes.
+        </p>
+      </div>
+    </div>
+    <div
+      class="section fp-section fp-table"
+      id="contact"
+      data-anchor="contact"
+      style="height: 600px"
+    >
+      <div class="fp-tableCell" style="height: 600px">
+        <section>
+          <div class>
+            <div class="container-fluid p-0">
+              <div
+                class="bg-img lazy mask-dark"
+                data-bg="img/contact-us.jpg"
+                style="background-image: url('img/contact-us.jpg')"
+              ></div>
+              <!--Screen 100% height  -->
+              <div class="row m-0 d-flex h100">
+                <div
+                  class="col-xl-8 offset-xl-2 col-lg-12 col-md-12 p-0 align-items-stretch"
+                >
+                  <!--  background image -->
+                  <div class="block-content">
+                    <div class="block-content-inner">
+                      <!-- 100% height  -->
+                      <div class="d-flex h100">
+                        <div class="align-self-center w_100">
+                          <div class="relative">
+                            <div class="section-header-title text-center">
+                              <h3 class="section-title light">Contact us</h3>
+                            </div>
+                            <div class="pad-b-30 d-none d-xl-block"></div>
+                            <div id="form-wrapperc">
+                              <div id="form-inner">
+                                <div id="ErrResultsc">
+                                  <!-- Error Here -->
+                                </div>
+                                <div id="MainResultc" style="display: none">
+                                  <!-- Response Here -->
+                                </div>
+                                <div id="MainContent">
+                                  <form
+                                    id="MyContactForm"
+                                    name="google-form"
+                                    method="post"
+                                    class="mb-30"
+                                  >
+                                    <div class="row">
+                                      <div class="col-md-6">
+                                        <p class="name">
+                                          <input
+                                            type="text"
+                                            class="white"
+                                            name="Name"
+                                            id="Name"
+                                            placeholder="Your Name"
+                                          />
+                                          <label for="name" id="nameLbc"
+                                            ><span
+                                              class="errorc"
+                                              style="display: none"
+                                              >*Name Required</span
+                                            ></label
+                                          >
+                                        </p>
+                                        <p>
+                                          <input
+                                            type="email"
+                                            class="white"
+                                            name="Email"
+                                            id="Email"
+                                            placeholder="Your Email"
+                                          />
+                                          <label for="email" id="emailLbc">
+                                            <span
+                                              class="errorc error1c"
+                                              style="display: none"
+                                              >*Email Required</span
+                                            >
+                                            <span
+                                              class="errorc error2c"
+                                              style="display: none"
+                                              >*Email Not Valid</span
+                                            >
+                                          </label>
+                                        </p>
+                                        <p class="m-0">
+                                          <input
+                                            type="text"
+                                            class="white"
+                                            name="Phone"
+                                            id="Phone"
+                                            placeholder="Your Telephone"
+                                          />
+                                          <label for="phone" id="phoneLbc"
+                                            ><span
+                                              class="errorc"
+                                              style="display: none"
+                                              >*Telephone Required</span
+                                            ></label
+                                          >
+                                        </p>
+                                        <div
+                                          class="mb-30 d-sm-block d-md-none d-lg-none"
+                                        ></div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <p class="textarea">
+                                          <textarea
+                                            name="Message"
+                                            class="white"
+                                            id="Message"
+                                            placeholder="Your Message"
+                                            rows="4"
+                                          ></textarea>
+                                          <label for="message" id="messageLbc"
+                                            ><span
+                                              class="errorc"
+                                              style="display: none"
+                                              >*Message Required</span
+                                            ></label
+                                          >
+                                        </p>
+                                        <div class="text-left">
+                                          <a
+                                            href="#"
+                                            class="contact-btn btn-default m-0"
+                                            >Send Message</a
+                                          >
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </form>
+                                  <div
+                                    class="row addclr justify-content-between px-2 flex"
+                                  >
+                                    <div class="t col-lg-7">
+                                      <a
+                                        href="mailto:contact@theassignmenthub.com"
+                                        class="addclr"
+                                      >
+                                        <i
+                                          class="ion-ios-email-outline fs-3"
+                                        ></i>
+                                        contact@theassignmenthub.com
+                                      </a>
+                                      <p class="mt-1 addclr">
+                                        <i class="ion-home fs-3"></i> 70/38
+                                        Patel Marg, Mansarovar<span
+                                          class="d-block"
+                                          >Jaipur, Rajasthan, 302020
+                                        </span>
+                                      </p>
+                                    </div>
+                                    <div class="col-lg-2 iso-right">
+                                      <img
+                                        src="./img/iso-logo.png"
+                                        alt="ISO certified"
+                                      />
+                                    </div>
+                                    <div class="col-lg-3 iso-right">
+                                      <a
+                                        href="tel:+91-9352555548"
+                                        class="addclr"
+                                      >
+                                        <i class="ion-ios-telephone"></i>
+                                        +91-9352555548
+                                      </a>
+                                      <div class="clr1">
+                                        <a
+                                          href="https://www.instagram.com/the_assignment_hub/"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-instagram"></i>
+                                        </a>
+                                        <a
+                                          href="https://www.facebook.com/theassignmenthub/"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-facebook"></i>
+                                        </a>
+                                        <a
+                                          href="https://in.linkedin.com/company/assignment-hub-research-pvt-ltd/"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-linkedin"></i>
+                                        </a>
+                                        <a
+                                          href="https://api.whatsapp.com/send/?phone=+919352555548&text=Hello"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-whatsapp"></i>
+                                        </a>
+                                        <a
+                                          href="https://twitter.com/AssignmentPvt"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-twitter"></i>
+                                        </a>
+                                        <a
+                                          href="https://www.youtube.com/channel/UC2mPcLyepQN9-2pJPAl43Bw/featured"
+                                          class="clr1"
+                                        >
+                                          <i class="ion-social-youtube"></i>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!--MainContent-->
+                                </div>
+                                <!--form-inner-->
+                              </div>
+                              <div class="pad-b-60 d-block d-xl-none"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- End Section footer -->
+
+    <!-- Google Tag Manager -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NHRKTSZ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      >
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  </body>
+</html>
